@@ -1,0 +1,16 @@
+# Copy to terraform.tfvars and fill in, or export BUDDY_TOKEN in your shell.
+# buddy_token = "your-personal-access-token"
+
+domain = "mydomain"
+
+# Optional overrides:
+# projects = {
+#   service-a = { display_name = "Service A" }
+#   service-b = { display_name = "Service B" }
+# }
+#
+# environments = {
+#   dev   = { ref = "develop", mode = "PUSH" }
+#   stage = { ref = "staging", mode = "PUSH" }
+#   prod  = { ref = "main", mode = "MANUAL" }
+# }
